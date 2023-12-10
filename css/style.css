@@ -1,9 +1,17 @@
+/* tags */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
 /* classes */
 .site {
     background-color: black;
-    background-image: url("/images/walkerbot.webp");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url("/images/Lake1.png");
+    background-repeat: repeat;
+    background-size: 100%;
+    width: 100%;
 }
 
 .logo {
@@ -20,19 +28,22 @@
     margin-right: auto;
 }
 
-.jumbotron {
-    background-color: black;
-    color: white;
-    text-align: center;
-}
-
 .header {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-body {
-    margin: 0;
-    padding: 0;
+/* fixes container not reaching edge of page */
+.container-fluid{
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: auto;
+}
+
+/* fixes spill over */
+.row{
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: auto;
 }
 
 .navbar {
