@@ -2,9 +2,13 @@
 html {
     box-sizing: border-box;
 }
-*, *:before, *:after {
+
+*,
+*:before,
+*:after {
     box-sizing: inherit;
 }
+
 /* classes */
 .site {
     background-color: black;
@@ -23,53 +27,46 @@ html {
 
 .logo img {
     display: block;
-    width: 50%;
+    width: 40%;
     margin-left: auto;
     margin-right: auto;
 }
 
 .header {
     background-color: rgba(0, 0, 0, 0.5);
-}
-
-/* fixes container not reaching edge of page */
-.container-fluid{
-    padding-left: 0px;
-    padding-right: 0px;
-    margin: auto;
+    background-image: url("/images/Lake1.png");
 }
 
 /* fixes spill over */
-.row{
+.row {
     padding-left: 0px;
     padding-right: 0px;
     margin: auto;
 }
 
-.navbar {
-    overflow: hidden;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    text-align: center;
+.center-div {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
 }
 
-.navbar a {
-    display: inline;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+.transparent {
+    opacity: 0.5;
 }
 
-.navbar a:hover {
-    background-color: #ddd;
-    color: black;
+.opaque {
+    opacity: 1;
 }
 
-@media screen and (max-width: 600px) {
-    .navbar a {
-        width: 100%;
-        float: none;
-    }
+.navbar-nav>li {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* ids */
+/* fixes container not reaching edge of page */
+#remove-padding {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: auto;
 }

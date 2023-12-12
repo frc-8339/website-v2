@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Penticton Robotics - FRC 8339</title>
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
     <meta name="description"
         content="The Penticton Robotics Team is a diverse, student-led team of high school students with the vision and dream of representing School District 67 at the regional FIRST robotics competition on March 1st, 2024, in Victoria, British Columbia." />
 
@@ -37,10 +39,11 @@
         crossorigin="anonymous"></script>
     <!-- css link -->
     <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body class="site site-lang-en">
-    <div class="container-fluid">
+    <div class="container-fluid" id="remove-padding">
         <div class="header">
             <!--logo-->
             <div class="row">
@@ -50,19 +53,38 @@
                     </a>
                 </div>
             </div>
-            <!--
-                Nav bar with tabs like home, about us, media, benefits, what is first?, sponsors/donate, live
-            -->
-            <div class="navbar">
-                <a href="#home">Home</a>
-                <a href="#about">About Us</a>
-                <a href="#media">Media</a>
-                <a href="#benefits">Benefits</a>
-                <a href="#live">Live</a>
-                <a href="#sponsors">Sponsors/Donate</a>
-            </div>
+            <!--navbar-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark transparent">
+                <div class="container-fluid center-div">
+                    <div class="collapse navbar-collapse" id="navbarText">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Media</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Benefits</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">What Is First</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Sponsor/Donate</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://www.twitch.tv/firstinspires">Live</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
         </div>
-    </div>  
+    </div>
 </body>
 
 </html>
