@@ -72,6 +72,25 @@ html {
     padding-right: 15px;
 }
 
+.section-a{
+    color:black;
+    background-image: url("/images/SectionABackground.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.team-number{
+    width:30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.timer-a{
+    font-size: 50%;
+    text-align: center;
+}
+
 
 /* ids */
 /* fixes container not reaching edge of page */
