@@ -33,10 +33,10 @@ html {
     margin-right: auto;
 }
 
-.logo-background{
+.logo-background {
     background-image: url("/images/LogoBackingImg.png");
-    background-repeat:no-repeat;
-    background-size:cover;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding-left: 0px;
     padding-right: 0px;
     margin: auto;
@@ -72,25 +72,47 @@ html {
     padding-right: 15px;
 }
 
-.section-a{
-    color:black;
+.section-a {
+    color: black;
     background-image: url("/images/SectionABackground.png");
-    background-repeat:no-repeat;
-    background-size:cover;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.team-number{
-    width:30%;
+.team-number {
+    width: 30%;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-.timer-a{
-    font-size: 50%;
+.timer-a {
+    font-size: 25vw;
     text-align: center;
 }
 
+.button-margin-left {
+    margin-left: 25vw;
+    width: 20vw;
+    height: 3.5vw;
+}
+
+.section-a-button {
+    border: 0px;
+    border-radius: 0px;
+    transition-duration: 400ms;
+}
+
+.section-a-button:hover {
+    background-color: #fcba03;
+    color: rgba(0, 0, 0, 1);
+    opacity: 0.3;
+}
+
+.pr-colors {
+    background-color: black;
+    color: #fcba03;
+}
 
 /* ids */
 /* fixes container not reaching edge of page */
