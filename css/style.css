@@ -93,25 +93,42 @@ html {
 
 .button-margin-left {
     margin-left: 25vw;
-    width: 20vw;
-    height: 3.5vw;
+}
+
+.button-margin-right {
+    margin-right: 25vw;
+    float: right;
 }
 
 .section-a-button {
     border: 0px;
     border-radius: 0px;
     transition-duration: 400ms;
+    width: 20vw;
+    height: 3.5vw;
+    margin-bottom: 1vw;
+    font-weight: 500;
+    font-size: 100%;
 }
 
 .section-a-button:hover {
     background-color: #fcba03;
     color: rgba(0, 0, 0, 1);
-    opacity: 0.3;
+    opacity: 0.7;
 }
 
 .pr-colors {
     background-color: black;
     color: #fcba03;
+}
+
+.custom-nav-element>a {
+    font-size: 100%;
+}
+
+.custom-nav-element>a:hover {
+    color: #fcba03;
+    font-weight: 600;
 }
 
 /* ids */
